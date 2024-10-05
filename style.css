@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f4f4f4;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #2e3E50;
+    color: white;
+    padding: 10px 0;
+}
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar .contact-info p {
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-bar .social-links a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.top-bar .social-links a:hover {
+    color: #F39C12;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #5c6a77, #ECF0F1);
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img {
+    width: 80px;
+}
+header .school-info h1 {
+    font-family: 'Playfair Display', serif;
+    color: #2C3E50;
+    font-size: 2.0em;
+}
+header .school-info p {
+    font-style: italic;
+    color: #7F8C8D;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #2C3E50;
+    transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+    color: #1f1910;
+}
+
+/* Call to Action Button */
+.cta .btn {
+    background-color: #402c0b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta .btn:hover {
+    background-color: #E67E22;
+}
+
+/* Add some padding and space for content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
